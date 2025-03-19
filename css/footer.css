@@ -1,0 +1,26 @@
+#footer, footer{
+    background:var(--dark-main);                           
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-left: .2rem solid var(--blanco);
+    border-right: .2rem solid var(--blanco);
+    border-bottom: .2rem solid var(--blanco);
+}
+
+.img-logo {
+    width: 8rem; 
+    height: auto;
+    padding: 1rem;
+}
+
+.info-web {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    color: var(--blanco);
+}

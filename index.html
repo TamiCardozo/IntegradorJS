@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BFF | Best Friend's For Ever 🐶</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="module" src="js/app.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src="imagenes/LOGO-BFF.webp" alt="Logo de BFF"></a>
+        <nav class="navbar" id="menu">
+            <a href="#info">Info</a>
+            <a href="#catalogo">Catalogo</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <form action="#" method="post">
+            <button type="button" id="btnMenu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/>
+                </svg>
+            </button>
+            <button type="button" id="btnCarrito">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                    <path d="M0 24C0 10.7 10.7 0 24 0L69.5 0c22 0 41.5 12.8 50.6 32l411 0c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3l-288.5 0 5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5L488 336c13.3 0 24 10.7 24 24s-10.7 24-24 24l-288.3 0c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5L24 48C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
+                </svg>
+            </button>
+        </form>
+        <section id="carrito">
+            <header>
+                <h3>Carrito</h3>
+                <form action="">
+                    <button  id="btnCloseCarrito">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                        </svg>
+                    </button>
+                    <button  id="btnRemoveAll">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M135.2 17.7L128 32 32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0-7.2-14.3C307.4 6.8 296.3 0 284.2 0L163.8 0c-12.1 0-23.2 6.8-28.6 17.7zM416 128L32 128 53.2 467c1.6 25.3 22.6 45 47.9 45l245.8 0c25.3 0 46.3-19.7 47.9-45L416 128z"/>
+                        </svg>
+                    </button>
+                </form>
+            </header>
+            <ul>
+                <li>
+                    <picture>
+                        <img src="imagenes/chihui1.webp" alt="">
+                    </picture>
+                    <dl>
+                        <dt>Nombre</dt>
+                        <dd>$ Precio</dd>
+                    </dl>
+                    <form action="">
+                        <fieldset>
+                            <button type="button">-</button>
+                            <output>1</output>
+                            <button type="button">+</button>
+                        </fieldset>
+                        <button type="button" role="remove">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path d="M135.2 17.7L128 32 32 32C14.3 32 0 46.3 0 64S14.3 96 32 96l384 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 0-7.2-14.3C307.4 6.8 296.3 0 284.2 0L163.8 0c-12.1 0-23.2 6.8-28.6 17.7zM416 128L32 128 53.2 467c1.6 25.3 22.6 45 47.9 45l245.8 0c25.3 0 46.3-19.7 47.9-45L416 128z"/>
+                            </svg>
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <article>
+            <h1>Best Friend's For Ever</h1>
+            <p>Encuentra a tu compañero de aventuras y llena tu vida de momentos inolvidables</p>
+            <a href="#catalogo">Ir al Catalogo</a>
+        </article>
+        <picture>
+                <img src="imagenes/imagen1.webp" alt="">
+        </picture>
+    </section>
+    </main>
+
+    <section id="info">
+        <picture>
+            <img src="imagenes/imagen2.webp" alt="">
+        </picture>
+        <article>
+            <h2>Conocenos un poco mas</h2>
+            <p> Somos un negocio legitimo que busca armar vinculos entre personas y amigos muy especiales</p>
+            <ul>
+                <li>Protejemos a nuestros animales con seguimientos y localizacion</li>
+                <li>Controles con profecionales en su salud y bienestar</li>
+                <li>Información completa y transparente de la raza, origen y procedencia</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="catalogo">
+        <header>
+            <h2>Encuentra a tu BFF</h2>
+            <form action="#" method="get" id="tool">
+                <button type="button" id="btnFilter">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path d="M0 416c0 17.7 14.3 32 32 32l54.7 0c12.3 28.3 40.5 48 73.3 48s61-19.7 73.3-48L480 448c17.7 0 32-14.3 32-32s-14.3-32-32-32l-246.7 0c-12.3-28.3-40.5-48-73.3-48s-61 19.7-73.3 48L32 384c-17.7 0-32 14.3-32 32zm128 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM320 256a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm32-80c-32.8 0-61 19.7-73.3 48L32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l246.7 0c12.3 28.3 40.5 48 73.3 48s61-19.7 73.3-48l54.7 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-54.7 0c-12.3-28.3-40.5-48-73.3-48zM192 128a32 32 0 1 1 0-64 32 32 0 1 1 0 64zm73.3-64C253 35.7 224.8 16 192 16s-61 19.7-73.3 48L32 64C14.3 64 0 78.3 0 96s14.3 32 32 32l86.7 0c12.3 28.3 40.5 48 73.3 48s61-19.7 73.3-48L480 128c17.7 0 32-14.3 32-32s-14.3-32-32-32L265.3 64z"/>
+                    </svg>
+                </button>
+            </form>
+            <form action="#" method="get" id="filtro">
+                <input type="radio" id="all" name="raza" value="all" checked>
+                <label for="all">Todos</label>
+
+                <input type="radio" id="chihuahua" name="raza" value="chihuahua">
+                <label for="chihuahua">chihuahua</label>
+
+                <input type="radio" id="pitbull" name="raza" value="pitbull">
+                <label for="pitbull">pitbull</label>
+
+                <input type="radio" id="husky" name="raza" value="husky">
+                <label for="husky">husky</label>
+                
+                <input type="radio" id="beagle" name="raza" value="beagle">
+                <label for="beagle">beagle</label>
+            </form>
+        </header>
+        <ul id="listado">
+            <li>
+                <picture>
+                    <img src="imagenes/chihui1.webp" alt="">
+                </picture>
+                <dl>
+                    <dt>Nombre</dt>
+                    <dd>Biografia</dd>
+                </dl>
+                <p>Chihuahua</p>
+                <form action="#">
+                    <input type="hidden" id="producto" value="1">
+                    <button type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5l0 1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3l0-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"/>
+                        </svg>
+                    </button>
+                </form>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <article>
+            <h2>Nuestras Redes</h2>
+            <nav>
+                <a href="http://instagram.com/bff.pets" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                    </svg>
+                </a>
+                <a href="http://wa.me" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+                    </svg>
+                </a>
+                <a href="https://maps.app.goo.gl/NvFKwDppHC4WzhPD9" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/>
+                    </svg>
+                </a>
+            </nav>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26680.72363048656!2d-66.3317956!3d-33.2902965!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d43eb8e2b13c53%3A0x426e683d243e1f65!2sVeterinaria%20del%20Parque!5e0!3m2!1ses!2sar!4v1740701019346!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
+        <form action="" id="formulario">
+            <fieldset>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre">
+                <small class="feedback"></small>
+            </fieldset>
+            <fieldset>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <small class="feedback"></small>
+            </fieldset>
+            <fieldset>
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje"></textarea>
+                <small class="feedback"></small>
+            </fieldset>
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+    </section>
+
+        <footer id="footer">
+            <picture class="img-logo">
+                <img src="imagenes/BFF.png" alt="logo">
+            </picture>
+            <article class="info-web">
+                <p>🐾©BFF2025</p>
+            </article>
+        </footer>
+</body>
+</html>

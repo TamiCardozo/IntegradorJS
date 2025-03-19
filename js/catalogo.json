@@ -1,0 +1,99 @@
+[
+    {
+        "id":1,
+        "imagen":"chihui1.webp",
+        "nombre":"Paquito",
+        "biografia":"Paquito es de la raza chihuhua cabeza de venado, tiene un año de vida es 100% pedigri, hijo de zeus y nala ,  proveniente de Cordoba capital",
+        "raza":"chihuahua",
+        "precio":750000
+    },
+    {
+        "id":2,
+        "imagen":"chihui2.webp",
+        "nombre":"Carlos Mario",
+        "biografia":"Carlos Mario el Chihuahua de pelo largo con cabeza de venado es una variedad encantadora y única de la raza, tiene 10 meses de vida 100% pedigri, hijos de tim y lola, proveniente de CABA ",
+        "raza":"chihuahua",
+        "precio":875000
+    },
+    {
+        "id":3,
+        "imagen":"chihui3.webp",
+        "nombre":"Beki",
+        "biografia":"Beki Chihuahua de pelo corto y cabeza de manzana es una de las variedades más populares y reconocibles de esta raza, tiene 6 meses de vida 100% pedigri pueden ser excelentes compañeros para familias, pero requieren propietarios responsables y comprometidos, hija de marcos y leticia, proveniente de Cordoba Capital",
+        "raza":"chihuahua",
+        "precio":1200000
+    },
+    {
+        "id":4,
+        "imagen":"pitbull1.webp",
+        "nombre":"Barny",
+        "biografia":"Barny PitBull Americano  son conocidos por su lealtad y afecto hacia sus dueños, pueden ser perros muy cariñosos y protectores con su familia, tiene 3 meses de vida , hijo de Apolo y Dayneris, proveniente de Mendoza  ",
+
+        "raza":"pitbull",
+        "precio":970000
+    },
+    {
+        "id":5,
+        "imagen":"pitbull2.webp",
+        "nombre":"Samson",
+        "biografia":"Samson Pitbull Pampeano pueden ser excelentes compañeros para familias, pero requieren propietarios responsables y comprometidos, tiene un año de vida, hijo de Drako y Malala, Provenientes de San Luis ",
+        "raza":"pitbull",
+        "precio":500000
+    },
+    {
+        "id":6,
+        "imagen":"pitbull3.webp",
+        "nombre":"Mara",
+        "biografia":"Mara Pitbull Stanford son conocidos por su agilidad y inteligencia, excelente compañera para familias numerosas, tiene 8 meses de vida, hija de Draykon y Clara, Provenientes de Mendoza  ",
+        "raza":"pitbull",
+        "precio":345000
+    },
+    {
+        "id":7,
+        "imagen":"husky1.webp",
+        "nombre":"Togo",
+        "biografia":"Togo Husky Siberiano es una raza hermosa y llena de energía que puede ser una excelente compañía para familias activas y responsables, tiene 1 año de vida 100% pedigri, hijo de Balto y Umma, Proveniente de Chubut",
+        "raza":"husky",
+        "precio":1500000
+    },
+    {
+        "id":8,
+        "imagen":"husky2.webp",
+        "nombre":"Marta",
+        "biografia":"Marta Suelen llevarse bien con niños y otros animales, lo que los convierte en excelente compañera para familias con múltiples miembros, tiene 8 meses de vida 100% pedigri, hijo Roco y kiki, Proveniente de Chubut",
+        "raza":"husky",
+        "precio":1750000
+    },
+    {
+        "id":9,
+        "imagen":"husky3.webp",
+        "nombre":"Bruno",
+        "biografia":"Bruno es un perro enérgicos y juguetones, lo que los hace ideales para familias activas que disfrutan de actividades al aire libre, tiene 6 meses de vida 100% pedigri, hijo kusko y isma, Proveniente de Tierra de Fuego",
+        "raza":"husky",
+        "precio":1500000
+    },
+    {
+        "id":10,
+        "imagen":"beagle1.webp",
+        "nombre":"Olivia",
+        "biografia":"Olivia es encantadora y versátil que puede ser una excelente opción para familias y personas activas, tiene 5 meses de vida 100% pedigri, hija de Sam y Perla, provenientes de CABA  ",
+        "raza":"beagle",
+        "precio":450000
+    },
+    {
+        "id":11,
+        "imagen":"beagle2.webp",
+        "nombre":"Tomi",
+        "biografia":"Tomi por su naturaleza amigable y sociable lo hace ideale para familias con niños, tiene 1 año de vida 100% pedigri, hijo de Cai y Nina, proveniente de Mendoza",
+        "raza":"beagle",
+        "precio":385000
+    },
+    {
+        "id":12,
+        "imagen":"beagle3.webp",
+        "nombre":"Charly",
+        "biografia":"Charly es un perro hogareño, muy compañero y inteligente ideal para familias y personas aventureras tiene 6 meses de vida hijo de marco y lola, proveniente de San Luis",
+        "raza":"beagle",
+        "precio":400000
+    }
+]

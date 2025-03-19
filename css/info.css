@@ -1,0 +1,111 @@
+#info {
+    display: flex; 
+    align-items: center; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    margin-bottom: 20px;
+
+}
+
+#info picture {
+    flex: 1; 
+    max-width: 50%; 
+    padding-right: 20px; 
+}
+
+#info picture img {
+    width: 90%; 
+    height: auto; 
+    display: block; 
+    border-radius: 15px;
+}
+
+#info article {
+    flex: 1; 
+    max-width: 50%; 
+
+}
+
+#info h2 {
+    font-size: 3rem;
+    margin-bottom: 30px; 
+}
+
+#info p {
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    
+    }
+
+#info ul {
+    list-style-type: disc; 
+    padding-left: 20px; 
+    
+}
+
+#info li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #f9f9f9;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: #300549;
+    border-radius: 30px 10px 30px 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    animation: cloud-entry-right 1s ease-out forwards;
+    transform: translateX(100%); 
+    opacity: 0;
+}
+
+#info li:nth-child(1) { animation-delay: 0.2s; } 
+#info li:nth-child(2) { animation-delay: 0.4s; } 
+#info li:nth-child(3) { animation-delay: 0.6s; } 
+
+
+@keyframes cloud-entry-right {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width:1280px) {
+    #info{
+        flex-direction: column-reverse;
+    }
+    #info article{
+        flex: auto;
+        max-width: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0;
+        gap: 1rem;
+    }
+    #info article h2{
+        margin-bottom: 0;
+    }
+    #info article p {
+        margin-bottom: 0;
+    }
+    #info article ul{
+        padding: 0;
+    }
+    #info picture{
+        flex: auto;
+        width: 100%;
+        max-width: none;
+        padding: 0;
+        border-radius: 1rem;
+        overflow: hidden;
+        box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.1)
+    }
+    #info picture img{
+        width: 100%;
+        border-radius: 0;
+    }
+}
